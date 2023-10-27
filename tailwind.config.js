@@ -6,10 +6,10 @@ module.exports = {
     extend: {
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
-      },
-      theme: {
-        xs: "640px",
-        ...defaultTheme.screens,
+        screens: {
+          xs: "600px",
+          ...defaultTheme.screens,
+        },
       },
     },
   },
